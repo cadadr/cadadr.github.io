@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Göktuğ&#39;s Elisp Website</title>
+    <link>/news.html</link>
+    <description>Recent content in News on Göktuğ&#39;s Elisp Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 22 Apr 2018 00:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New website for my Elisp programs</title>
+      <link>/news/new-website.html</link>
+      <pubDate>Sun, 22 Apr 2018 00:00:00 +0300</pubDate>
+      
+      <guid>/news/new-website.html</guid>
+      <description>This is the new website for my Elisp stuff. Here you can find up-to-date package summaries and , follow updates on programs published here. Descriptions here will always be up-to-date thanks to ox-hugo package, with which I can reuse data from the readme file of the elisp repo. Huge thanks to Kaushal Modi for authoring that package and for suggesting it to me. Hugo is not the most pleasant static site generator I worked with (way too complex, hard to customise, bad docs, weird limitations), but it&amp;rsquo;s worth it given how useful ox-hugo is.</description>
+    </item>
+    
+  </channel>
+</rss>

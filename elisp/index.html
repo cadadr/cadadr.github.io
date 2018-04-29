@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.39" />
+    
+    <title>Homepage --- Göktuğ's Elisp Stuff</title>
+    <link rel="canonical" href="./">
+    <link rel="stylesheet" href="./style.css">
+    <link href="news/index.xml" rel="alternate"
+          type="application/rss+xml" title="Göktuğ's Elisp News"/>
+  </head>
+  <body>
+    <header>
+      <h1>Göktuğ's Elisp Stuff</h1>
+      <h2>Homepage</h2>
+      <nav>
+        <a href="./index.html">Home</a>
+        |
+        <a href="./about.html">About</a>
+        |
+        <a href="./news.html">News</a>
+        |
+        <a href="https://github.com/cadadr/elisp">Repo</a>
+      </nav>
+    </header>
+    <section id="content">
+
+
+
+
+<p>This is the website for <a href="https://www.gkayaalp.com">Göktuğ</a>&rsquo;s Emacs Lisp stuff.  Some of the
+programs here are published on <a href="https://melpa.org">Melpa</a>.  All of the source code is
+available at the <a href="https://github.com/cadadr/elisp">source code repository</a>.</p>
+
+<h2 id="what-s-here">What&rsquo;s here</h2>
+
+<p>Below is a listing of all the programs here:</p>
+
+<h3 id="forecast-el"><code>forecast.el</code></h3>
+
+<p>«forecast.el» is a weather forecast report generator, currently using
+data from <a href="https://darksky.net">Dark Sky</a> (but I plan to add other backends in the future).</p>
+
+<h3 id="paper"><code>paper-theme.el</code></h3>
+
+<p>«Paper» is a little, minimal emacs theme that is meant to be simple
+and consistent.</p>
+
+<p>It was first intended to resemble the look of paper, but has diverged
+from that objective.  Still, though, I keep calling it Paper, as I
+like that name.</p>
+
+<p>Paper uses a small colour palette over all the elements.  Org headings
+are specially treated with a palette of equidistant colours.  The
+colours and heading font sizes are calculated using base and factor
+values which can be edited.  See source.</p>
+
+<p>It&rsquo;s most adapted for ELisp-Org users, as I&rsquo;m one such user, though it
+works fine with Markdown, Textile, Python, JavaScript, Html, Diff,
+Magit, etc.</p>
+
+<h3 id="pass-listing-el"><code>pass-listing.el</code></h3>
+
+<p>«pass-listing» is a simple frontend to the <a href="https://www.passwordstore.org/">pass</a> utility.  It uses the
+functions from <code>password-store.el</code>.</p>
+
+<h3 id="bsdpkg-el"><code>bsdpkg.el</code></h3>
+
+<p>«bsdpkg» is an Emacs interface to FreeBSD <code>pkg(1)</code>.  It&rsquo;s planned to
+genericise the package to support all *BSD packaging systems, and the
+module is written with that sort of extensibility in mind.</p>
+
+<blockquote>
+<p>This is experimental, and kind-of obsoleted as I don&rsquo;t use BSD at
+the moment.  I&rsquo;d be happy to accept changes or to hand it over if
+anybody will be interested.</p>
+</blockquote>
+
+<h3 id="bibliothek-el"><code>bibliothek.el</code></h3>
+
+<p>«bibliothek.el» is a personal PDF library manager.  Presently it only
+displays a concatenated tabular list of PDF files from many locations,
+and allows to open the files or view metadata from that list.  Find
+below a screenshot of the default view.  I intend to add some
+functionality for moving PDF files around and editing the metadata.</p>
+
+<h3 id="gk-unilat-el"><code>gk-unilat.el</code></h3>
+
+<p>«gk-unilat» is a unified input method for European variants of the
+Latin alphabet.</p>
+
+<p>It aims to provide comprehensive support for typing characters found
+in different European versions of the Latin alphabet, in a unified,
+predictable way.</p>
+
+<h3 id="gk-greek-el"><code>gk-greek.el</code></h3>
+
+<p>«gk-greek» is a transliterating input method for modern Greek.</p>
+
+<p>Translates input in Greek latinization into Greek alphabet.  Mappings
+are based on vocal correspondence and common modern transliteration.</p>
+
+<h3 id="ovp"><code>org-variable-pitch.el</code></h3>
+
+<p>«org-variable-pitch.el» is a minor mode that enables
+‘variable-pitch-mode’ in the current Org-mode buffer, and sets some
+particular faces up so that they are are rendered in fixed-width font.
+Also, indentation, list bullets and checkboxes are displayed in
+monospace, in order to keep the shape of the outline.</p>
+
+<h3 id="dollar-el"><code>dollar.el</code></h3>
+
+<p>This package provides a macro named $ where in its body symbols in the
+form $N where N is a positive integer are to stand for positional
+arguments to the generated lambda.</p>
+
+<p>If the car of the body is a vector though, that vector becomes the
+argument list of the new lambda.</p>
+
+<p>Some examples:</p>
+
+<pre><code class="language-elisp">($ (message &quot;Hello, %s&quot; $1))
+(funcall ($ (* $1 $1)) 2)
+(reduce ($ [a b] (concat a b)) (list &quot;hel&quot; &quot;lo&quot;))
+</code></pre>
+
+<h2 id="contributing">Contributing</h2>
+
+<p>See the <a href="https://github.com/cadadr/elisp">source code repository</a> in order to find out about how to
+contribute.</p>
+
+
+    </section>
+    <footer>
+    </footer>
+   </body>
+</html>
+
