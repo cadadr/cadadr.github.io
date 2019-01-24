@@ -2,12 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Göktuğ&#39;s Elisp Website</title>
-    <link>/news.xml</link>
+    <link>/news.html</link>
     <description>Recent content in News on Göktuğ&#39;s Elisp Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 27 Nov 2018 00:00:00 +0300</lastBuildDate>
-    <atom:link href="/news.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Jan 2019 00:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New domain: dev.gkayaalp.com</title>
+      <link>/news/new-domain.html</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0300</pubDate>
+      
+      <guid>/news/new-domain.html</guid>
+      <description>Started using a custom domain name for this website in order to remove the direct links to Github. Who knows where Github will end up now; it’s all smooth these days but now that the acquisition happened, there always is a chance that things go rogue.</description>
+    </item>
     
     <item>
       <title>pass-listing gets a rename command</title>
@@ -15,10 +26,7 @@
       <pubDate>Tue, 27 Nov 2018 00:00:00 +0300</pubDate>
       
       <guid>/news/pass-rename.html</guid>
-      <description>&lt;p&gt;Commit &lt;a href=&#34;https://github.com/cadadr/elisp/commit/30119002db8df4a2b444da0c0fd36ebb3c2fdba2&#34;&gt;&lt;abbr
-title=&#34;30119002db8df4a2b444da0c0fd36ebb3c2fdba2, click to browse commit on Github&#34;&gt;30119002db&lt;/abbr&gt;&lt;/a&gt;
-adds a rename command to pass-listing, bound to &lt;code&gt;R&lt;/code&gt; by default.&lt;/p&gt;
-</description>
+      <description>Commit 30119002db adds a rename command to pass-listing, bound to R by default.</description>
     </item>
     
     <item>
@@ -27,19 +35,7 @@ adds a rename command to pass-listing, bound to &lt;code&gt;R&lt;/code&gt; by de
       <pubDate>Sun, 22 Apr 2018 00:00:00 +0300</pubDate>
       
       <guid>/news/new-website.html</guid>
-      <description>&lt;p&gt;This is the new website for my Elisp stuff.  Here you can find
-up-to-date package summaries and , follow &lt;a href=&#34;../news.html&#34;&gt;updates&lt;/a&gt; on programs
-published here.  Descriptions here will always be up-to-date thanks to
-&lt;a href=&#34;https://github.com/kaushalmodi/ox-hugo&#34;&gt;ox-hugo&lt;/a&gt; package, with which I can reuse data from the readme file of
-the elisp repo.  Huge thanks to Kaushal Modi for authoring that
-package and for suggesting it to me.  &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; is not the most pleasant
-static site generator I worked with (way too complex, hard to
-customise, bad docs, weird limitations), but it&amp;rsquo;s worth it given how
-useful ox-hugo is.&lt;/p&gt;
-
-&lt;p&gt;Source code of this website is split among the content source &lt;a href=&#34;https://github.com/cadadr/elisp/blob/master/Website.org&#34;&gt;here&lt;/a&gt;,
-and the Hugo setup &lt;a href=&#34;https://github.com/cadadr/elisp-www&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>This is the new website for my Elisp stuff. Here you can find up-to-date package summaries and , follow updates on programs published here. Descriptions here will always be up-to-date thanks to ox-hugo package, with which I can reuse data from the readme file of the elisp repo. Huge thanks to Kaushal Modi for authoring that package and for suggesting it to me. Hugo is not the most pleasant static site generator I worked with (way too complex, hard to customise, bad docs, weird limitations), but it&amp;rsquo;s worth it given how useful ox-hugo is.</description>
     </item>
     
   </channel>
