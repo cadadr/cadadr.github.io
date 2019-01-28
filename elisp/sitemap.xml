@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/news/move-website-to-elisp-repo.html</loc>
+    <lastmod>2019-01-28T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news/ovp-alpha-lists.html</loc>
+    <lastmod>2019-01-28T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/news/new-domain.html</loc>
     <lastmod>2019-01-24T00:00:00+03:00</lastmod>
   </url>
@@ -23,12 +33,12 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-01-24T00:00:00+03:00</lastmod>
+    <lastmod>2019-01-28T00:00:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>/news.html</loc>
-    <lastmod>2019-01-24T00:00:00+03:00</lastmod>
+    <lastmod>2019-01-28T00:00:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   

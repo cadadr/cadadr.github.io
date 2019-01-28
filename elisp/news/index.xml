@@ -6,10 +6,28 @@
     <description>Recent content in News on Göktuğ&#39;s Elisp Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 24 Jan 2019 00:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0300</lastBuildDate>
     
 	<atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Move website sources into the elisp repository</title>
+      <link>/news/move-website-to-elisp-repo.html</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0300</pubDate>
+      
+      <guid>/news/move-website-to-elisp-repo.html</guid>
+      <description>Now, with commit [[https://github.com/cadadr/elisp/commit/ac2da41ca4854e7e5ea10697ec9f989f0f74d17e][ac2da41]], website sources live under the docs/website tree. This was done in order to ease up adding new posts, which involved three repositories before this move.</description>
+    </item>
+    
+    <item>
+      <title>Org variable pitch now supports org-list-allow-alphabetical</title>
+      <link>/news/ovp-alpha-lists.html</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0300</pubDate>
+      
+      <guid>/news/ovp-alpha-lists.html</guid>
+      <description>With issue#38 fixed, OVP now supports Org mode plain lists with prefixes like A., a., a), A), and with the prefix * for levels except the first level.</description>
+    </item>
     
     <item>
       <title>New domain: dev.gkayaalp.com</title>
