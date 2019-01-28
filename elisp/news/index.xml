@@ -17,7 +17,7 @@
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0300</pubDate>
       
       <guid>/news/move-website-to-elisp-repo.html</guid>
-      <description>Now, with commit [[https://github.com/cadadr/elisp/commit/ac2da41ca4854e7e5ea10697ec9f989f0f74d17e][ac2da41]], website sources live under the docs/website tree. This was done in order to ease up adding new posts, which involved three repositories before this move.</description>
+      <description>Now, with commit ac2da41, website sources live under the docs/website tree. This was done in order to ease up adding new posts, which involved three repositories before this move.</description>
     </item>
     
     <item>
